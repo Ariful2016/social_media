@@ -14,6 +14,8 @@ import android.view.View;
 import com.bumptech.glide.Glide;
 import com.cit.social_media_practice.R;
 import com.cit.social_media_practice.adapter.ChatAdapter;
+
+
 import com.cit.social_media_practice.databinding.ActivityChatBinding;
 import com.cit.social_media_practice.model.Chat;
 import com.cit.social_media_practice.model.User;
@@ -31,7 +33,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.UUID;
+
 
 public class ChatActivity extends AppCompatActivity {
 

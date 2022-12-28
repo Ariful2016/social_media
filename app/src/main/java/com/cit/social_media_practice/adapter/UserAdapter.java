@@ -76,7 +76,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserViewHolder> {
     }
 
     private void showDialog(Context context, String id) {
-
         CircleImageView profile;
         TextView name,message,date;
         Dialog dialog = new Dialog(context);
